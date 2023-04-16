@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+
+
+body
+{
+    /* background-color: rgb(18, 8, 59); */
+    background-image:linear-gradient(to right, rgb(18, 8, 59), rgb(37, 10, 145));
+}
+
+#accueil
+{
+    color:rgb(235, 200, 169);
+    /*font-family: 'Dancing Script', 'sans-serif'; */
+    font-family: 'Alkatra', cursive;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+header
+{
+    color:rgb(235, 200, 169);
+    font-size: 150%;
+    /* font-family: 'Dancing Script', 'sans-serif'; */
+    font-family: 'Alkatra', cursive;
+    margin-left:20%;
+}
+
+
+aside
+{
+    margin-top:6%;
+    margin-left:5%;
+
+    width: 50%;
+    float: left;
+}
+
+.link
+{
+    line-height :3;
+    color:rgb(235, 200, 169);
+    /*font-family: 'Dancing Script', 'sans-serif'; */
+    font-family: 'Alkatra', cursive;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+h3
+{
+    line-height :2;
+    color:rgb(235, 200, 169);
+    font-family: 'Alkatra', cursive;
+    font-size: 200%;
+}
+
+#mail
+{
+    text-decoration: none;
+    color:rgb(235, 200, 169);
+}
+
+.photo
+{
+    width: 25%;
+    height: 25%;
+    float: right;
+    margin-right: 10%;
+    -moz-border-radius: 50px; /* pour Mozilla */
+    -khtml-border-radius: 50px; /* pour Safari et Chrome */
+    -webkit-border-radius: 50px; /* pour Safari sur Mac */
+    border-radius: 50px; /* CSS3 */
+}
+
+#photo_Profil
+{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-right: 10%;
+    -moz-border-radius: 50px; /* pour Mozilla */
+    -khtml-border-radius: 50px; /* pour Safari et Chrome */
+    -webkit-border-radius: 50px; /* pour Safari sur Mac */
+    border-radius: 50px; /* CSS3 */
+}
+
+/* Responsivité */
+
+@media screen and (max-width: 1120px){
+    h3
+    {
+        font-size: 100%;
+    }
+    .link
+    {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    h3
+    {
+        font-size: 80%;
+    }
+    .link
+    {
+        font-size: 80%;
+    }
+}
