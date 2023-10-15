@@ -1,12 +1,18 @@
 //PARTIE PORTFOLIO
 let link = document.getElementsByClassName("link");
 let taille;
+let tailleEcran = screen.width;
 
-for (let i = 0; i < link.length; i++)
+if(tailleEcran > 1025)
 {
-    link[i].addEventListener("mouseover", grossir);
-    link[i].addEventListener("mouseout", maigrir);
+    for (let i = 0; i < link.length; i++)
+    {
+        link[i].addEventListener("mouseover", grossir);
+        link[i].addEventListener("mouseout", maigrir);
+    }
 }
+
+
 
 function grossir()
 {

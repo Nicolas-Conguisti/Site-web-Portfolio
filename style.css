@@ -87,24 +87,24 @@ h3
 
 /* Responsivité */
 
-@media screen and (max-width: 1120px){
+@media screen and (max-width: 1025px){
     h3
     {
-        font-size: 100%;
+        font-size: 90%;
     }
     .link
     {
-        font-size: 100%;
+        font-size: 90%;
     }
 }
 
 @media screen and (max-width: 600px){
     h3
     {
-        font-size: 80%;
+        font-size: 70%;
     }
     .link
     {
-        font-size: 80%;
+        font-size: 70%;
     }
 }

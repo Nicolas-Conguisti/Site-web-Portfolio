@@ -1,22 +1,22 @@
 Bonjour !
 
-Dans cet espace, vous avez accès à tous mes travaux réalisés.
-Ils sont regroupés dans certaines compétences :
+Dans cet espace, vous avez acces a tous mes travaux realises.
+Ils sont regroupes dans certaines competences :
 
-	- Réaliser et optimiser une application
+	- Realiser et optimiser une application
 
-	- Gérer un projet au sein d'une équipe informatique
+	- Gerer un projet au sein d une equipe informatique
 
-	- Savoir communiquer en développant son éloquence
+	- Gerer et analyser des donnees
 
 
-Chacun de mes travaux est accompagné :
+Chacun de mes travaux est accompagne :
 
-	- d'un compte rendu dans lequel je décris le travail réalisé
+	- d un compte rendu dans lequel je decris le travail realise
 
-	- d'une analyse d'un segment du projet qui reflète son ensemble
+	- d une analyse d un segment du projet qui reflete son ensemble
 
-	- du projet final réalisé
+	- du projet final realise
 
 
 Bon visionnage !
