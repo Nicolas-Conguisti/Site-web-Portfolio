@@ -5,7 +5,7 @@ Ils sont regroupes dans certaines competences :
 
 	- Realiser et optimiser une application
 
-	- Gerer un projet au sein d une equipe informatique
+	- Gerer un projet informatique
 
 	- Gerer et analyser des donnees
 
