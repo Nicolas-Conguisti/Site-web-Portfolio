@@ -1,5 +1,5 @@
 //PARTIE PORTFOLIO
-let link = document.getElementsByClassName("link");
+let link = document.getElementsByClassName("lien");
 let taille;
 let tailleEcran = screen.width;
 
@@ -17,12 +17,12 @@ if(tailleEcran > 1025)
 function grossir()
 {
     taille = this.style.fontSize
-    this.style.fontSize = "210%";
+    //this.style.fontSize = "210%";
     this.style.color = "lightblue";
 }
 
 function maigrir()
 {
-    this.style.fontSize = taille;
+    //this.style.fontSize = taille;
     this.style.color = "rgb(235, 200, 169)";
 }

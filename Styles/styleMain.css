@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+
+
+body{
+    /* background-color: rgb(18, 8, 59); */
+    background-image:linear-gradient(to right, rgb(35, 15, 105), rgb(55, 16, 211));
+}
+
+.miseEnForme{
+    color:rgb(235, 200, 169);
+    font-family: 'Alkatra', cursive;
+}
+
+header{
+    font-size: 150%;
+    margin-left: 20%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+}
+
+section{
+    width: 70%;
+    text-align: center;
+}
+
+#presentation{
+    font-size: 150%;
+}
+
+#lienVersCompetences{
+    line-height :3;
+    /*text-decoration: none;*/
+    font-size: 200%;
+}
+
+aside{
+    width: 30%;
+}
+
+#photo_Profil{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50px;
+}
