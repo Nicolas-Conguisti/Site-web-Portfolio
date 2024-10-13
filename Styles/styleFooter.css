@@ -23,6 +23,9 @@ footer {
     line-height :3;
     color:rgb(235, 200, 169);
     font-family: 'Alkatra', cursive;
-    text-decoration: none;
-    font-size: 150%;
+    transition: color 0.3s;
+}
+
+.lienFooter:hover{
+    color:rgb(211, 209, 55);
 }

@@ -1,5 +1,5 @@
 //PARTIE PORTFOLIO
-let link = document.getElementsByClassName("lien");
+let link = document.getElementsByClassName("lienAnimJS");
 let taille;
 let tailleEcran = screen.width;
 
@@ -18,7 +18,7 @@ function grossir()
 {
     taille = this.style.fontSize
     //this.style.fontSize = "210%";
-    this.style.color = "lightblue";
+    this.style.color = "darkblue";
 }
 
 function maigrir()

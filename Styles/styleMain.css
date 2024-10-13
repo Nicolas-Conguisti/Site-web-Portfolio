@@ -6,16 +6,18 @@
 body{
     /* background-color: rgb(18, 8, 59); */
     background-image:linear-gradient(to right, rgb(35, 15, 105), rgb(55, 16, 211));
+    height: 100%;
 }
 
 .miseEnForme{
     color:rgb(235, 200, 169);
     font-family: 'Alkatra', cursive;
+    font-size: 150%;
 }
 
 header{
-    font-size: 150%;
     margin-left: 20%;
+    margin-top: 3%;
 }
 
 main{
@@ -28,16 +30,27 @@ main{
 section{
     width: 70%;
     text-align: center;
+    margin: 0 2%;
 }
 
-#presentation{
-    font-size: 150%;
+#textePresentation{
+    margin-bottom: 5%;
+
 }
 
-#lienVersCompetences{
+#btnPresentation{
     line-height :3;
-    /*text-decoration: none;*/
-    font-size: 200%;
+    background-color: #6f62a0;
+    border: 0;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+#btnPresentation:hover {
+    background-color: #5d576c;
+  }
+
+.lien{
+    text-decoration: none;
 }
 
 aside{
